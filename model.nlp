@@ -34,83 +34,290 @@
           "useStemDict": true
         },
         "stemDict": {
-          "for,goodby,now": {
-            "intent": "greetings.bye",
+          "plan,sprint": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "bye,care,take": {
-            "intent": "greetings.bye",
+          "plan": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "later,okay,see,you": {
-            "intent": "greetings.bye",
+          "sprint": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "bye,for,now": {
-            "intent": "greetings.bye",
+          "good,plan,sprint,was": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "go,i,must": {
-            "intent": "greetings.bye",
+          "afternoon,are,have,plan,sprint,still,this,we": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "hello": {
-            "intent": "greetings.hello",
+          "be,go,is,loooong,sprint,this,to": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "hi": {
-            "intent": "greetings.hello",
+          "bore,plan,the,veri,was": {
+            "intent": "sprint.planning",
             "domain": "default"
           },
-          "howdi": {
-            "intent": "greetings.hello",
+          "age,plan,this,time,took": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "are,given,ongo,plan,still,task,that,there,unnecessari,was": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "is,next,plan,the,when": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "do,new,sprint,start,the,we,when": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "almost,is,over,sprint": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "did,finish,in,sprint,task,the,this,we": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "3,and,is,more,over,sprint,task,this": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "are,for,goal,next,our,week,what": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "by,do,follow,implement,need,sprint,the,this,we": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "by,done,end,have,i,might,of,the,this,week": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "assign,how,mani,point,should,task,this,to,we": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "for,happen,if,is,lmk,meet,on,plan,still,the,tuesday": {
+            "intent": "sprint.planning",
+            "domain": "default"
+          },
+          "standup": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "5,in,minut,standup": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "i,miss,standup,the": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "daili,meet": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "daili,meet,short": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "could,do,i,much,not,yesterday": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "day,i,off,other,the,was": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "for,me,no,updat": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "on,same,still,the,thing,work": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "at,day,do,end,i,of,the,think,this,will": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "today": {
+            "intent": "standup",
+            "domain": "default"
+          },
+          "yesterday": {
+            "intent": "standup",
             "domain": "default"
           }
         },
         "intentDict": {
-          "greetings.bye": "default",
-          "greetings.hello": "default"
+          "sprint.planning": "default",
+          "standup": "default"
         },
         "sentences": [
           {
             "domain": "default",
-            "utterance": "goodbye for now",
-            "intent": "greetings.bye"
+            "utterance": "sprint planning",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "bye bye take care",
-            "intent": "greetings.bye"
+            "utterance": "planning",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "okay see you later",
-            "intent": "greetings.bye"
+            "utterance": "sprint",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "bye for now",
-            "intent": "greetings.bye"
+            "utterance": "sprint planning was good",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "i must go",
-            "intent": "greetings.bye"
+            "utterance": "are we still having sprint planning this afternoon?",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "hello",
-            "intent": "greetings.hello"
+            "utterance": "this sprint is going to be loooong",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "hi",
-            "intent": "greetings.hello"
+            "utterance": "the planning was very boring",
+            "intent": "sprint.planning"
           },
           {
             "domain": "default",
-            "utterance": "howdy",
-            "intent": "greetings.hello"
+            "utterance": "planning took ages this time",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "planning was unnecessary given that there are still ongoing tasks",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "when is the next planning",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "when do we start the new sprint",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "sprint is almost over!!",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "did we finish the tasks in this sprint",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "3 more tasks and this sprint is over",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "what are our goals for next week",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "do we need this implemented by the following sprint?",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "i might have this done by the end of the week",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "how many points should we assign to this task",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "lmk if the meeting for the planning is still happening on tuesday",
+            "intent": "sprint.planning"
+          },
+          {
+            "domain": "default",
+            "utterance": "standup",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "standup in 5 minutes",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "i missed the standup",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "daily meeting",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "short daily meeting",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "i could not do much yesterday",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "i was off the other day",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "no updates for me",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "still working on the same thing",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "i think i will do this at the end of the day",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "today",
+            "intent": "standup"
+          },
+          {
+            "domain": "default",
+            "utterance": "yesterday",
+            "intent": "standup"
           }
         ],
         "domains": {
@@ -127,97 +334,481 @@
               "log": true
             },
             "features": {
-              "goodby": 1,
-              "for": 1,
-              "now": 1,
-              "bye": 1,
-              "take": 1,
-              "care": 1,
-              "okay": 1,
-              "see": 1,
-              "you": 1,
-              "later": 1,
-              "i": 1,
-              "must": 1,
+              "3": 1,
+              "5": 1,
+              "sprint": 1,
+              "plan": 1,
+              "was": 1,
+              "good": 1,
+              "are": 1,
+              "we": 1,
+              "still": 1,
+              "have": 1,
+              "this": 1,
+              "afternoon": 1,
+              "is": 1,
               "go": 1,
-              "hello": 1,
-              "hi": 1,
-              "howdi": 1
+              "to": 1,
+              "be": 1,
+              "loooong": 1,
+              "the": 1,
+              "veri": 1,
+              "bore": 1,
+              "took": 1,
+              "age": 1,
+              "time": 1,
+              "unnecessari": 1,
+              "given": 1,
+              "that": 1,
+              "there": 1,
+              "ongo": 1,
+              "task": 1,
+              "when": 1,
+              "next": 1,
+              "do": 1,
+              "start": 1,
+              "new": 1,
+              "almost": 1,
+              "over": 1,
+              "did": 1,
+              "finish": 1,
+              "in": 1,
+              "more": 1,
+              "and": 1,
+              "what": 1,
+              "our": 1,
+              "goal": 1,
+              "for": 1,
+              "week": 1,
+              "need": 1,
+              "implement": 1,
+              "by": 1,
+              "follow": 1,
+              "i": 1,
+              "might": 1,
+              "done": 1,
+              "end": 1,
+              "of": 1,
+              "how": 1,
+              "mani": 1,
+              "point": 1,
+              "should": 1,
+              "assign": 1,
+              "lmk": 1,
+              "if": 1,
+              "meet": 1,
+              "happen": 1,
+              "on": 1,
+              "tuesday": 1,
+              "standup": 1,
+              "minut": 1,
+              "miss": 1,
+              "daili": 1,
+              "short": 1,
+              "could": 1,
+              "not": 1,
+              "much": 1,
+              "yesterday": 1,
+              "off": 1,
+              "other": 1,
+              "day": 1,
+              "no": 1,
+              "updat": 1,
+              "me": 1,
+              "work": 1,
+              "same": 1,
+              "thing": 1,
+              "think": 1,
+              "will": 1,
+              "at": 1,
+              "today": 1
             },
             "intents": {
-              "greetings.bye": 1,
-              "greetings.hello": 1
+              "sprint.planning": 1,
+              "standup": 1
             },
             "intentFeatures": {
-              "greetings.bye": {
-                "goodby": 1,
+              "sprint.planning": {
+                "3": 1,
+                "sprint": 1,
+                "plan": 1,
+                "was": 1,
+                "good": 1,
+                "are": 1,
+                "we": 1,
+                "still": 1,
+                "have": 1,
+                "this": 1,
+                "afternoon": 1,
+                "is": 1,
+                "go": 1,
+                "to": 1,
+                "be": 1,
+                "loooong": 1,
+                "the": 1,
+                "veri": 1,
+                "bore": 1,
+                "took": 1,
+                "age": 1,
+                "time": 1,
+                "unnecessari": 1,
+                "given": 1,
+                "that": 1,
+                "there": 1,
+                "ongo": 1,
+                "task": 1,
+                "when": 1,
+                "next": 1,
+                "do": 1,
+                "start": 1,
+                "new": 1,
+                "almost": 1,
+                "over": 1,
+                "did": 1,
+                "finish": 1,
+                "in": 1,
+                "more": 1,
+                "and": 1,
+                "what": 1,
+                "our": 1,
+                "goal": 1,
                 "for": 1,
-                "now": 1,
-                "bye": 1,
-                "take": 1,
-                "care": 1,
-                "okay": 1,
-                "see": 1,
-                "you": 1,
-                "later": 1,
+                "week": 1,
+                "need": 1,
+                "implement": 1,
+                "by": 1,
+                "follow": 1,
                 "i": 1,
-                "must": 1,
-                "go": 1
+                "might": 1,
+                "done": 1,
+                "end": 1,
+                "of": 1,
+                "how": 1,
+                "mani": 1,
+                "point": 1,
+                "should": 1,
+                "assign": 1,
+                "lmk": 1,
+                "if": 1,
+                "meet": 1,
+                "happen": 1,
+                "on": 1,
+                "tuesday": 1
               },
-              "greetings.hello": {
-                "hello": 1,
-                "hi": 1,
-                "howdi": 1
+              "standup": {
+                "5": 1,
+                "standup": 1,
+                "in": 1,
+                "minut": 1,
+                "i": 1,
+                "miss": 1,
+                "the": 1,
+                "daili": 1,
+                "meet": 1,
+                "short": 1,
+                "could": 1,
+                "not": 1,
+                "do": 1,
+                "much": 1,
+                "yesterday": 1,
+                "was": 1,
+                "off": 1,
+                "other": 1,
+                "day": 1,
+                "no": 1,
+                "updat": 1,
+                "for": 1,
+                "me": 1,
+                "still": 1,
+                "work": 1,
+                "on": 1,
+                "same": 1,
+                "thing": 1,
+                "think": 1,
+                "will": 1,
+                "this": 1,
+                "at": 1,
+                "end": 1,
+                "of": 1,
+                "today": 1
               }
             },
             "featuresToIntent": {
-              "goodby": [
-                "greetings.bye"
+              "3": [
+                "sprint.planning"
               ],
-              "for": [
-                "greetings.bye"
+              "5": [
+                "standup"
               ],
-              "now": [
-                "greetings.bye"
+              "sprint": [
+                "sprint.planning"
               ],
-              "bye": [
-                "greetings.bye"
+              "plan": [
+                "sprint.planning"
               ],
-              "take": [
-                "greetings.bye"
+              "was": [
+                "sprint.planning",
+                "standup"
               ],
-              "care": [
-                "greetings.bye"
+              "good": [
+                "sprint.planning"
               ],
-              "okay": [
-                "greetings.bye"
+              "are": [
+                "sprint.planning"
               ],
-              "see": [
-                "greetings.bye"
+              "we": [
+                "sprint.planning"
               ],
-              "you": [
-                "greetings.bye"
+              "still": [
+                "sprint.planning",
+                "standup"
               ],
-              "later": [
-                "greetings.bye"
+              "have": [
+                "sprint.planning"
               ],
-              "i": [
-                "greetings.bye"
+              "this": [
+                "sprint.planning",
+                "standup"
               ],
-              "must": [
-                "greetings.bye"
+              "afternoon": [
+                "sprint.planning"
+              ],
+              "is": [
+                "sprint.planning"
               ],
               "go": [
-                "greetings.bye"
+                "sprint.planning"
               ],
-              "hello": [
-                "greetings.hello"
+              "to": [
+                "sprint.planning"
               ],
-              "hi": [
-                "greetings.hello"
+              "be": [
+                "sprint.planning"
               ],
-              "howdi": [
-                "greetings.hello"
+              "loooong": [
+                "sprint.planning"
+              ],
+              "the": [
+                "sprint.planning",
+                "standup"
+              ],
+              "veri": [
+                "sprint.planning"
+              ],
+              "bore": [
+                "sprint.planning"
+              ],
+              "took": [
+                "sprint.planning"
+              ],
+              "age": [
+                "sprint.planning"
+              ],
+              "time": [
+                "sprint.planning"
+              ],
+              "unnecessari": [
+                "sprint.planning"
+              ],
+              "given": [
+                "sprint.planning"
+              ],
+              "that": [
+                "sprint.planning"
+              ],
+              "there": [
+                "sprint.planning"
+              ],
+              "ongo": [
+                "sprint.planning"
+              ],
+              "task": [
+                "sprint.planning"
+              ],
+              "when": [
+                "sprint.planning"
+              ],
+              "next": [
+                "sprint.planning"
+              ],
+              "do": [
+                "sprint.planning",
+                "standup"
+              ],
+              "start": [
+                "sprint.planning"
+              ],
+              "new": [
+                "sprint.planning"
+              ],
+              "almost": [
+                "sprint.planning"
+              ],
+              "over": [
+                "sprint.planning"
+              ],
+              "did": [
+                "sprint.planning"
+              ],
+              "finish": [
+                "sprint.planning"
+              ],
+              "in": [
+                "sprint.planning",
+                "standup"
+              ],
+              "more": [
+                "sprint.planning"
+              ],
+              "and": [
+                "sprint.planning"
+              ],
+              "what": [
+                "sprint.planning"
+              ],
+              "our": [
+                "sprint.planning"
+              ],
+              "goal": [
+                "sprint.planning"
+              ],
+              "for": [
+                "sprint.planning",
+                "standup"
+              ],
+              "week": [
+                "sprint.planning"
+              ],
+              "need": [
+                "sprint.planning"
+              ],
+              "implement": [
+                "sprint.planning"
+              ],
+              "by": [
+                "sprint.planning"
+              ],
+              "follow": [
+                "sprint.planning"
+              ],
+              "i": [
+                "sprint.planning",
+                "standup"
+              ],
+              "might": [
+                "sprint.planning"
+              ],
+              "done": [
+                "sprint.planning"
+              ],
+              "end": [
+                "sprint.planning",
+                "standup"
+              ],
+              "of": [
+                "sprint.planning",
+                "standup"
+              ],
+              "how": [
+                "sprint.planning"
+              ],
+              "mani": [
+                "sprint.planning"
+              ],
+              "point": [
+                "sprint.planning"
+              ],
+              "should": [
+                "sprint.planning"
+              ],
+              "assign": [
+                "sprint.planning"
+              ],
+              "lmk": [
+                "sprint.planning"
+              ],
+              "if": [
+                "sprint.planning"
+              ],
+              "meet": [
+                "sprint.planning",
+                "standup"
+              ],
+              "happen": [
+                "sprint.planning"
+              ],
+              "on": [
+                "sprint.planning",
+                "standup"
+              ],
+              "tuesday": [
+                "sprint.planning"
+              ],
+              "standup": [
+                "standup"
+              ],
+              "minut": [
+                "standup"
+              ],
+              "miss": [
+                "standup"
+              ],
+              "daili": [
+                "standup"
+              ],
+              "short": [
+                "standup"
+              ],
+              "could": [
+                "standup"
+              ],
+              "not": [
+                "standup"
+              ],
+              "much": [
+                "standup"
+              ],
+              "yesterday": [
+                "standup"
+              ],
+              "off": [
+                "standup"
+              ],
+              "other": [
+                "standup"
+              ],
+              "day": [
+                "standup"
+              ],
+              "no": [
+                "standup"
+              ],
+              "updat": [
+                "standup"
+              ],
+              "me": [
+                "standup"
+              ],
+              "work": [
+                "standup"
+              ],
+              "same": [
+                "standup"
+              ],
+              "thing": [
+                "standup"
+              ],
+              "think": [
+                "standup"
+              ],
+              "will": [
+                "standup"
+              ],
+              "at": [
+                "standup"
+              ],
+              "today": [
+                "standup"
               ]
             },
             "neuralNetwork": {
@@ -233,89 +824,377 @@
                 "log": true
               },
               "features": [
-                "goodby",
-                "for",
-                "now",
-                "bye",
-                "take",
-                "care",
-                "okay",
-                "see",
-                "you",
-                "later",
-                "i",
-                "must",
+                "sprint",
+                "plan",
+                "was",
+                "good",
+                "are",
+                "we",
+                "still",
+                "have",
+                "this",
+                "afternoon",
+                "is",
                 "go",
-                "hello",
-                "hi",
-                "howdi",
+                "to",
+                "be",
+                "loooong",
+                "the",
+                "veri",
+                "bore",
+                "took",
+                "age",
+                "time",
+                "unnecessari",
+                "given",
+                "that",
+                "there",
+                "ongo",
+                "task",
+                "when",
+                "next",
+                "do",
+                "start",
+                "new",
+                "almost",
+                "over",
+                "did",
+                "finish",
+                "in",
+                "3",
+                "more",
+                "and",
+                "what",
+                "our",
+                "goal",
+                "for",
+                "week",
+                "need",
+                "implement",
+                "by",
+                "follow",
+                "i",
+                "might",
+                "done",
+                "end",
+                "of",
+                "how",
+                "mani",
+                "point",
+                "should",
+                "assign",
+                "lmk",
+                "if",
+                "meet",
+                "happen",
+                "on",
+                "tuesday",
+                "standup",
+                "5",
+                "minut",
+                "miss",
+                "daili",
+                "short",
+                "could",
+                "not",
+                "much",
+                "yesterday",
+                "off",
+                "other",
+                "day",
+                "no",
+                "updat",
+                "me",
+                "work",
+                "same",
+                "thing",
+                "think",
+                "will",
+                "at",
+                "today",
                 "nonefeature"
               ],
               "intents": [
-                "greetings.bye",
-                "greetings.hello",
+                "sprint.planning",
+                "standup",
                 "None"
               ],
               "perceptrons": [
                 [
-                  3.8025848865509033,
-                  3.9563980102539062,
-                  3.9563980102539062,
-                  4.022249221801758,
-                  3.871980905532837,
-                  3.871980905532837,
-                  2.9545509815216064,
-                  2.9545509815216064,
-                  2.9545509815216064,
-                  2.9545509815216064,
-                  3.9413552284240723,
-                  3.9413552284240723,
-                  3.9413552284240723,
-                  -2.459601402282715,
-                  -2.453923463821411,
-                  -2.4477386474609375,
-                  -2.4410507678985596,
-                  2.459665103433471
+                  2.3098347187042236,
+                  2.3812320232391357,
+                  -0.6776747703552246,
+                  -0.6259421706199646,
+                  0.028713829815387726,
+                  0.6505807638168335,
+                  -1.3069695234298706,
+                  0.3809519112110138,
+                  -0.032297249883413315,
+                  -1.0255271196365356,
+                  1.2357325553894043,
+                  -0.1142190545797348,
+                  0.22561119496822357,
+                  -0.1142190545797348,
+                  -0.1142190545797348,
+                  -0.8607513904571533,
+                  1.2773030996322632,
+                  1.2773030996322632,
+                  0.35056546330451965,
+                  0.35056546330451965,
+                  0.35056546330451965,
+                  0.4226284921169281,
+                  0.4226284921169281,
+                  0.4226284921169281,
+                  0.4226284921169281,
+                  0.4226284921169281,
+                  0.8571717143058777,
+                  0.40449148416519165,
+                  0.2198997586965561,
+                  -0.7392406463623047,
+                  0.8154321312904358,
+                  0.8154321312904358,
+                  0.06462039053440094,
+                  -0.19745934009552002,
+                  0.35592374205589294,
+                  0.35592374205589294,
+                  -0.25117227435112,
+                  -0.2611732482910156,
+                  -0.2611732482910156,
+                  -0.2611732482910156,
+                  0.6311109662055969,
+                  0.6311109662055969,
+                  0.6311109662055969,
+                  -0.7737133502960205,
+                  2.035802125930786,
+                  0.16343121230602264,
+                  0.16343121230602264,
+                  1.5689882040023804,
+                  0.16343121230602264,
+                  -2.827000379562378,
+                  1.405632495880127,
+                  1.405632495880127,
+                  0.15811844170093536,
+                  0.15811844170093536,
+                  0.3403708040714264,
+                  0.3403708040714264,
+                  0.3403708040714264,
+                  0.3403708040714264,
+                  0.3403708040714264,
+                  1.9579951763153076,
+                  1.9579951763153076,
+                  -4.430456638336182,
+                  1.9579951763153076,
+                  -0.7049651145935059,
+                  1.9579951763153076,
+                  -10.764381408691406,
+                  -0.49514561891555786,
+                  -0.49514561891555786,
+                  -0.62693190574646,
+                  -6.387768745422363,
+                  -0.5805222988128662,
+                  -0.3277876079082489,
+                  -0.3277876079082489,
+                  -0.3277876079082489,
+                  -10.750955581665039,
+                  -1.7528225183486938,
+                  -1.7528225183486938,
+                  -3.0009078979492188,
+                  -3.361863374710083,
+                  -3.361863374710083,
+                  -3.361863374710083,
+                  -2.663174867630005,
+                  -2.663174867630005,
+                  -2.663174867630005,
+                  -1.2471598386764526,
+                  -1.2471598386764526,
+                  -1.2471598386764526,
+                  -10.755125999450684,
+                  -10.74677562713623,
+                  10.87220247769683
                 ],
                 [
-                  -1.6328288316726685,
-                  -2.1340417861938477,
-                  -2.1340417861938477,
-                  -2.301002264022827,
-                  -1.799789309501648,
-                  -1.799789309501648,
-                  -1.4755080938339233,
-                  -1.4755080938339233,
-                  -1.4755080938339233,
-                  -1.4755080938339233,
-                  -1.9666719436645508,
-                  -1.9666719436645508,
-                  -1.9666719436645508,
-                  8.295953750610352,
-                  8.301239967346191,
-                  8.275633811950684,
-                  -5.688122749328613,
-                  5.905276935539851
+                  -6.710176467895508,
+                  -6.710176467895508,
+                  0.2408980429172516,
+                  -0.154235377907753,
+                  -1.3039960861206055,
+                  -1.9755421876907349,
+                  0.4371536374092102,
+                  -1.4718157052993774,
+                  -1.5489553213119507,
+                  -0.13205477595329285,
+                  -2.1238105297088623,
+                  -0.1301460862159729,
+                  -0.587563693523407,
+                  -0.1301460862159729,
+                  -0.1301460862159729,
+                  -0.46229878067970276,
+                  -0.8256573677062988,
+                  -0.8256573677062988,
+                  -0.15500274300575256,
+                  -0.15500274300575256,
+                  -0.15500274300575256,
+                  -0.17522668838500977,
+                  -0.17522668838500977,
+                  -0.17522668838500977,
+                  -0.17522668838500977,
+                  -0.17522668838500977,
+                  -0.9617564678192139,
+                  -1.0604206323623657,
+                  -1.2583630084991455,
+                  0.19102732837200165,
+                  -0.5904223322868347,
+                  -0.5904223322868347,
+                  -0.16373109817504883,
+                  -0.16373109817504883,
+                  -0.2596850097179413,
+                  -0.2596850097179413,
+                  -0.25448495149612427,
+                  0,
+                  0,
+                  0,
+                  -0.7872892022132874,
+                  -0.7872892022132874,
+                  -0.7872892022132874,
+                  0.3438127040863037,
+                  -2.2124128341674805,
+                  -0.18184520304203033,
+                  -0.18184520304203033,
+                  -1.486228585243225,
+                  -0.18184520304203033,
+                  0.986565887928009,
+                  -1.2159595489501953,
+                  -1.2159595489501953,
+                  0.16189557313919067,
+                  0.16189557313919067,
+                  -0.32727235555648804,
+                  -0.32727235555648804,
+                  -0.32727235555648804,
+                  -0.32727235555648804,
+                  -0.32727235555648804,
+                  -1.1819514036178589,
+                  -1.1819514036178589,
+                  3.156994104385376,
+                  -1.1819514036178589,
+                  0.9540169835090637,
+                  -1.1819514036178589,
+                  7.5755295753479,
+                  0.12724581360816956,
+                  0.12724581360816956,
+                  -0.5242600440979004,
+                  4.418539047241211,
+                  0.000002943716481240699,
+                  -0.39253222942352295,
+                  -0.39253222942352295,
+                  -0.39253222942352295,
+                  7.575539588928223,
+                  1.7414628267288208,
+                  1.7414628267288208,
+                  3.3274452686309814,
+                  2.410574436187744,
+                  2.410574436187744,
+                  2.410574436187744,
+                  2.215554714202881,
+                  2.215554714202881,
+                  2.215554714202881,
+                  1.585986852645874,
+                  1.585986852645874,
+                  1.585986852645874,
+                  7.575537204742432,
+                  -6.710175037384033,
+                  6.710178029480703
                 ],
                 [
-                  -0.541685163974762,
-                  -0.7201507687568665,
-                  -0.7201507687568665,
-                  -0.779670000076294,
-                  -0.601204514503479,
-                  -0.601204514503479,
-                  -0.4955962300300598,
-                  -0.4955962300300598,
-                  -0.4955962300300598,
-                  -0.4955962300300598,
-                  -0.6605581045150757,
-                  -0.6605581045150757,
-                  -0.6605581045150757,
-                  -1.8888578414916992,
-                  -1.8759384155273438,
-                  -1.8626952171325684,
-                  12.053886413574219,
-                  1.9734621497936955
+                  -1.5852599143981934,
+                  -1.585260272026062,
+                  -0.26040375232696533,
+                  -0.030360829085111618,
+                  -0.21316535770893097,
+                  -0.19834749400615692,
+                  -0.24915917217731476,
+                  -0.054041191935539246,
+                  -0.3576071262359619,
+                  -0.013497618027031422,
+                  -0.2412845343351364,
+                  -0.042279116809368134,
+                  -0.18726368248462677,
+                  -0.042279116809368134,
+                  -0.042279116809368134,
+                  -0.5492261052131653,
+                  -0.05031351372599602,
+                  -0.05031351372599602,
+                  -0.0917561948299408,
+                  -0.0917561948299408,
+                  -0.0917561948299408,
+                  -0.017864808440208435,
+                  -0.017864808440208435,
+                  -0.017864808440208435,
+                  -0.017864808440208435,
+                  -0.017864808440208435,
+                  -0.17319610714912415,
+                  -0.05188296362757683,
+                  -0.1870317906141281,
+                  -0.16600379347801208,
+                  -0.025850340723991394,
+                  -0.025850340723991394,
+                  -0.1562698632478714,
+                  -0.1624758094549179,
+                  -0.0030438126996159554,
+                  -0.0030438126996159554,
+                  -0.2209749072790146,
+                  -0.004331603646278381,
+                  -0.004331603646278381,
+                  -0.004331603646278381,
+                  -0.1607273817062378,
+                  -0.1607273817062378,
+                  -0.1607273817062378,
+                  -0.5170928239822388,
+                  -0.1975971907377243,
+                  0,
+                  0,
+                  -0.029489072039723396,
+                  0,
+                  -0.3753039538860321,
+                  -0.029489072039723396,
+                  -0.029489072039723396,
+                  -0.029489072039723396,
+                  -0.029489072039723396,
+                  -0.1347641795873642,
+                  -0.1347641795873642,
+                  -0.1347641795873642,
+                  -0.1347641795873642,
+                  -0.1347641795873642,
+                  0,
+                  0,
+                  -0.7926344275474548,
+                  0,
+                  -0.19672130048274994,
+                  0,
+                  -1.5852599143981934,
+                  -0.2151099145412445,
+                  -0.2151099145412445,
+                  -0.05499107763171196,
+                  -0.7926344275474548,
+                  -0.22469854354858398,
+                  -0.13403600454330444,
+                  -0.13403600454330444,
+                  -0.13403600454330444,
+                  -1.5852597951889038,
+                  -0.1334455907344818,
+                  -0.1334455907344818,
+                  -0.1334455907344818,
+                  -0.3560592234134674,
+                  -0.3560592234134674,
+                  -0.3560592234134674,
+                  -0.19672130048274994,
+                  -0.19672130048274994,
+                  -0.19672130048274994,
+                  0,
+                  0,
+                  0,
+                  -1.5852597951889038,
+                  12.70044994354248,
+                  1.5852607222896602
                 ]
               ]
             }
@@ -327,35 +1206,127 @@
     "extraSentences": [
       [
         "en",
-        "goodbye for now"
+        "sprint planning"
       ],
       [
         "en",
-        "bye bye take care"
+        "planning"
       ],
       [
         "en",
-        "okay see you later"
+        "sprint"
       ],
       [
         "en",
-        "bye for now"
+        "sprint planning was good"
       ],
       [
         "en",
-        "i must go"
+        "are we still having sprint planning this afternoon?"
       ],
       [
         "en",
-        "hello"
+        "this sprint is going to be loooong"
       ],
       [
         "en",
-        "hi"
+        "the planning was very boring"
       ],
       [
         "en",
-        "howdy"
+        "planning took ages this time"
+      ],
+      [
+        "en",
+        "planning was unnecessary given that there are still ongoing tasks"
+      ],
+      [
+        "en",
+        "when is the next planning"
+      ],
+      [
+        "en",
+        "when do we start the new sprint"
+      ],
+      [
+        "en",
+        "sprint is almost over!!"
+      ],
+      [
+        "en",
+        "did we finish the tasks in this sprint"
+      ],
+      [
+        "en",
+        "3 more tasks and this sprint is over"
+      ],
+      [
+        "en",
+        "what are our goals for next week"
+      ],
+      [
+        "en",
+        "do we need this implemented by the following sprint?"
+      ],
+      [
+        "en",
+        "i might have this done by the end of the week"
+      ],
+      [
+        "en",
+        "how many points should we assign to this task"
+      ],
+      [
+        "en",
+        "lmk if the meeting for the planning is still happening on tuesday"
+      ],
+      [
+        "en",
+        "standup"
+      ],
+      [
+        "en",
+        "standup in 5 minutes"
+      ],
+      [
+        "en",
+        "i missed the standup"
+      ],
+      [
+        "en",
+        "daily meeting"
+      ],
+      [
+        "en",
+        "short daily meeting"
+      ],
+      [
+        "en",
+        "i could not do much yesterday"
+      ],
+      [
+        "en",
+        "i was off the other day"
+      ],
+      [
+        "en",
+        "no updates for me"
+      ],
+      [
+        "en",
+        "still working on the same thing"
+      ],
+      [
+        "en",
+        "i think i will do this at the end of the day"
+      ],
+      [
+        "en",
+        "today"
+      ],
+      [
+        "en",
+        "yesterday"
       ]
     ]
   },
@@ -371,26 +1342,7 @@
     "settings": {
       "tag": "nlg-manager"
     },
-    "responses": {
-      "en": {
-        "greetings.bye": [
-          {
-            "answer": "Till next time"
-          },
-          {
-            "answer": "see you soon!"
-          }
-        ],
-        "greetings.hello": [
-          {
-            "answer": "Hey there!"
-          },
-          {
-            "answer": "Greetings!"
-          }
-        ]
-      }
-    }
+    "responses": {}
   },
   "actionManager": {
     "settings": {
